@@ -1,0 +1,67 @@
+<div id="help-template" class="outer">
+
+    <h1 class="head">Hilfe: Einstellungen</h1>
+    <h4 class="odd">Beschreibung</h4>
+
+    <p class="even">
+        Die Einstellungsbereiche sind der Ort, an dem Sie Ihre websiteweiten Einstellungen konfigurieren. Es lohnt sich, Zeit in die Durcharbeitung zu investieren, da einige Einstellungen erhebliche Auswirkungen auf die Leistung, Sicherheit und Benutzerfreundlichkeit Ihrer Website haben können.
+    </p>
+    <h4 class="odd">Allgemeine Einstellungen</h4>
+
+    <p class="even">
+        Dies sind die wichtigsten und am häufigsten verwendeten Einstellungen. Sie legen den Namen der Website und den Slogan für Ihre Website fest. Außerdem wählen Sie das Standard-Theme und die Admin-Oberfläche aus. Wenn Sie an Ihrer Website arbeiten müssen, können Sie sie für alle Benutzer schließen. Sie können auch modulweite Cache-Zeiten festlegen.
+    </p>
+
+    <h4 class="odd">Meta-Tags und Fußzeile</h4>
+
+    <p class="even">
+        Meta-Tags liefern Informationen über Ihre Inhalte – sie beschreiben die Art Ihrer Website. Ihr Hauptzweck ist es, Suchmaschinen und deren Robots zu helfen, Ihre Website korrekt zu indizieren, d. h. den richtigen Personen zu helfen, sie zu finden. Die von Ihnen bereitgestellten Informationen werden in den Header jeder Webseite aufgenommen. Sie sollten den Inhalt der Website als Ganzes repräsentieren – die Meta-Informationen sind auf jeder Seite gleich und können derzeit nicht für verschiedene Module oder Seiten angepasst werden.<br><br>
+
+        Beachten Sie, dass die großen Suchmaschinen unterschiedliche Strategien zur Indizierung von Websites verwenden. Sie können Meta-Tags unterschiedlich gewichten oder sie sogar vollständig ignorieren. Eine sorgfältige Verwendung von Meta-Informationen kann dazu beitragen, dass Ihre Website bessere Suchmaschinenplatzierungen erreicht, und es ist nützlich, Informationen über die Indizierungsstrategien Ihrer dominanten Verweiser zu suchen (siehe das Logfile Ihrer Website). Dies kann Ihnen helfen, Ihre Meta-Informationen oder andere Aspekte des Designs und Inhalts Ihrer Website zu optimieren, um Ihre Platzierungen zu verbessern.<br><br>
+
+        Versuchen Sie, bei der Bereitstellung von Meta-Informationen genau und ehrlich zu sein. Versuchen Sie nicht, Suchmaschinen zu „<em>manipulieren</em>“, um eine bessere Platzierung zu erzielen – sie könnten dieses Verhalten erkennen, und Ihre Website könnte herabgestuft oder von ihrem Index ausgeschlossen werden.<br><br>
+
+        Die Felder <strong>Meta-Copyright</strong> und <strong>Fußzeile</strong> unterstützen beide zwei Ersetzungstags, um die Wartung zu vereinfachen.<br>
+        - <strong>{X_SITEURL}</strong> wird durch die vollständige URL zur Hauptseite Ihrer Website ersetzt.<br>
+        - <strong>{X_YEAR}</strong> wird durch das aktuelle vierstellige Jahr ersetzt. Dies eliminiert die Notwendigkeit, das obere Copyright-Datum jedes Jahr zu aktualisieren.
+    </p>
+
+    <h4 class="odd">Wortzensuroptionen</h4>
+
+    <p class="even">
+        XOOPS kann unerwünschte Wörter, die von Besuchern auf Ihrer Website gepostet werden, automatisch zensieren und durch einen generischen, alternativen Begriff Ihrer Wahl ersetzen. Die Zensurfunktion verbraucht einige Systemressourcen und kann Ihre Website etwas verlangsamen. Sie ist standardmäßig deaktiviert.<br><br>
+
+        Um die Zensur auf Ihrer Website zu aktivieren, wählen Sie die Option „<em>aktivieren</em>“. Sie müssen eine Liste unerwünschter Wörter im Feld „<em>zu zensierende Wörter</em>“ eingeben, die durch das Pipe-Zeichen getrennt sind. Diese Funktion ist nicht case-sensitive. Geben Sie einen geeigneten Ersatzbegriff im Feld „<em>unzulässige Wörter ersetzen durch</em>“ ein. Der Standardwert ist #OOPS#.
+    </p>
+
+    <h4 class="odd">Suchoptionen</h4>
+
+    <p class="even">
+        Die Suchfunktion ist eines der wichtigsten Werkzeuge, um Informationen auf einer Portal-Website zu finden. Die XOOPS-Suche kategorisiert Ergebnisse nach Modulen – Datensätze werden als Nachrichten, Downloads, Links oder andere Typen gemäß den installierten Modulen identifiziert.<br><br>
+
+        Globale Suchen nach allen Ressourcen auf Ihrer Website sind standardmäßig aktiviert. Wenn Sie globale Suchen deaktivieren, steht diese Funktion nicht mehr zur Verfügung, und der Suchblock wird funktionslos. Die standardmäßige minimale Schlüsselwortlänge für Suchen beträgt fünf Zeichen. Kürzere Begriffe werden ignoriert. Dies ist nützlich, um die Präzision von Suchen zu steuern, obwohl es für Begriffe wie „Sitemap“ weniger nützlich ist. Kurze Schlüsselwörter sind tendenziell häufiger, sodass sie eine größere Anzahl von Datensätzen liefern, von denen viele irrelevant sein können. Längere Schlüsselwörter liefern tendenziell weniger Datensätze, aber mit einem höheren Grad an Präzision.<br><br>
+
+        Suchen sind relativ rechenintensiv, daher reduziert das Ausschließen kurzer Begriffe die Belastung des Servers. Beachten Sie jedoch, dass es manchmal nützlich sein kann, nach einem kurzen Begriff zu suchen.
+    </p>
+
+    <h4 class="odd">E-Mail-Einrichtung</h4>
+
+    <p class="even">
+        Dieser Abschnitt des Bedienfelds dient zur Konfiguration Ihrer E-Mail für das System. Es wird empfohlen, die E-Mail-Zustellmethode auf der Standardeinstellung „PHP (mail)“ zu belassen. Sie müssen die Felder für Sendmail oder SMTP nicht ausfüllen, es sei denn, Sie verwenden eine alternative E-Mail-Zustelloption.
+    </p>
+
+    <h4 class="odd">Authentifizierungsoptionen</h4>
+
+    <p class="even">
+        Belassen Sie es einfach bei der XOOPS-Datenbank, und Sie können alle anderen Optionen dort ignorieren.<br><br>
+
+        LDAP- oder Microsoft Active Directory-Server wurden für die Authentifizierung als Alternative zu den normalen XOOPS-Benutzern hinzugefügt. Der Grund ist, dass in vielen Unternehmen bereits eine Benutzerdatenbank in ADS oder LDAP vorhanden ist, die sie für die Anmeldung bei XOOPS verwenden können, ohne ein weiteres Konto registrieren zu müssen.
+    </p>
+
+    <h4 class="odd">Systemmoduleinstellungen</h4>
+
+    <p class="even">
+        Hier können Sie jeden der Systembereiche aktivieren/deaktivieren sowie systemweite Standardwerte festlegen, z. B. für die Anzahl der angezeigten Avatare oder Bilder pro Seite. Sie können auch einen Standard-Editor für Blöcke, Kommentare und alle Module auswählen.
+    </p>
+
+</div>

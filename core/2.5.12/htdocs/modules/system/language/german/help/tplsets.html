@@ -1,0 +1,30 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Hilfe: Vorlagen</h1>
+
+    <h4 class="odd">Beschreibung</h4>
+
+    <p class="even">
+        XOOPS ermöglicht eine gewisse Trennung zwischen der eigentlichen Präsentation der Website (dem „<em>Skin</em>“ oder der Benutzeroberfläche) und dem Code, der im Hintergrund läuft. Ersteres wird durch einen ausgeklügelten Mechanismus basierend auf grafischen Themes gesteuert. Ein Theme kann in seiner Grundform die wesentlichen HTML-Vorlagen enthalten, die die visuelle Benutzeroberfläche der Website definieren, sowie die benötigten Stylesheets und Bilder, um diese visuelle Oberfläche zu ergänzen. Themes können in der Administrationsoberfläche gewechselt werden, sodass das gesamte Erscheinungsbild einer XOOPS-Website nur durch das Ändern eines Auswahlwerts und ein Klick auf „Akzeptieren“ verändert werden kann. XOOPS bietet Website-Administratoren auch die Möglichkeit, Benutzern die Auswahl aus mehreren verfügbaren Themes zu erlauben.<br><br>
+
+        Allgemein gesprochen ist ein <strong><em>Theme</em></strong> der übergeordnete visuelle Rahmen einer Website: Das Theme definiert beispielsweise das allgemeine Layout der Website; es definiert jedoch in der Regel nicht die spezifische Verteilung von Inhalten innerhalb eines Blocks. Dies wird von einer anderen Entität namens <em><strong>Vorlagensatz</strong></em> übernommen. Ein Vorlagensatz ist ein Ensemble von HTML-Vorlagen, die die Präsentation von Inhalten in allen Blöcken einer XOOPS-Website definieren. Um dies mit einer klareren Metapher zu beschreiben, könnte man sagen, dass das Theme der Architekt eines Hauses ist, während der Vorlagensatz der Innenarchitekt ist. Der erste setzt die Wände und definiert die allgemeine Verteilung, aber der zweite ist für das „<em>Ankleiden</em>“ dieser Wände zuständig.<br><br>
+
+        Wenn das aktive Theme ein einfaches ist, das nur eine Themendatei, CSS-Dateien und einige Bilder enthält, verwendet XOOPS den Standard-Vorlagensatz, um die Präsentation von Blöcken zu definieren. Einige komplexe Themes sind jedoch so ausgeklügelt, dass sie ihren eigenen Vorlagensatz enthalten. In diesem Fall muss der Website-Administrator die Administrationsoberfläche verwenden, um sowohl das Theme als auch den Vorlagensatz festzulegen.<br><br>
+
+        Wie wird die <em>Magie</em> des Themes erreicht? Das heißt, wie können HTML-Vorlagen dynamische Inhalte enthalten? Dies geschieht nicht mit Spiegeln und Rauch, sondern mit einer cleveren Vorlagen-Engine namens <strong><a rel="external" href="https://www.smarty.net/">Smarty</a></strong>, die die Funktion der sogenannten <em><strong>Variableninterpolation</strong></em> übernimmt. Einfach ausgedrückt, verwendet das XOOPS-System PHP-Dateien, um die Logik der Module zu speichern (Zugriff auf die Datenbank, Zuweisung von Variablen, Verwaltung von Rechten...), HTML-Dateien mit eingefügten Smarty-Variablen, um die eigentliche visuelle Oberfläche zu verwalten, und die Smarty-Engine, um Werte und Zeichenfolgen an bestimmten Stellen innerhalb des HTML-Codes einzufügen, der die vom Endbenutzer gesehenen Seiten erstellt. Zusammengefasst bedeutet dies für Sie: Dank seines Themensystems ermöglicht XOOPS Website-Designern, interessantere und visuell beeindruckendere Websites zu erstellen, ohne sich allzu sehr um die Abläufe im Hintergrund kümmern zu müssen.
+    </p>
+    <h4 class="odd">Vorlagensätze klonen und herunterladen</h4>
+
+    <p class="even">
+        Wenn Sie einen benutzerdefinierten Vorlagensatz erstellen möchten, können Sie eine Kopie des Standard-Satzes (oder eines anderen) erstellen, indem Sie den Link „<em>klonen</em>“ auswählen (Sie werden aufgefordert, dem neuen Satz einen Namen zu geben). Im Gegensatz zum Standard können andere Vorlagensätze frei bearbeitet werden. Sie können auch eine Kopie eines Vorlagensatzes auf die Festplatte speichern, indem Sie den Link „<em>herunterladen</em>“ auswählen, oder ihn mit dem Link „<em>löschen</em>“ entfernen. Gelegentlich sehen Sie möglicherweise auch einen zusätzlichen Link „<em>Generieren</em>“ neben neuen Modulen, für die noch keine Vorlagen erstellt wurden.
+    </p>
+
+    <h4 class="odd">Vorlagen bearbeiten</h4>
+
+    <p class="even">
+        Sie können eine vollständige Liste der verfügbaren Vorlagen anzeigen, indem Sie die Verzeichnisbaumansicht durchsuchen. Wenn Sie eine Vorlage auswählen, öffnet XOOPS sie in einem Editor, in dem Sie sie bearbeiten können.<br><br>
+
+        Beim Bearbeiten von Vorlagen müssen Sie eine Einstellung aktivieren, die Modulvorlagen-.tpl-Dateien automatisch aktualisiert, wenn es neuere Dateien im Verzeichnis themes/Ihr-Theme/templates für das aktuelle Theme gibt (Systemmodul -> Einstellungen -> Allgemeine Einstellungen -> Modulvorlagen-.tpl-Dateien aus dem Verzeichnis themes/Ihr-Theme/templates aktualisieren? -> „<em>Ja</em>“). Diese Einstellung sollte deaktiviert werden, sobald die Website öffentlich zugänglich ist.<br><br>
+        Wenn Sie versehentlich eine Vorlage beschädigen, denken Sie daran, dass Sie eine „<em>funktionierende</em>“ Kopie aus dem Standard-Vorlagensatz abrufen können. Wenn Sie mit nicht-standardmäßigen Vorlagen arbeiten, ist es möglicherweise eine gute Idee, vor Beginn der Bearbeitung eine Kopie auf die Festplatte zu speichern.
+    </p>
+
+</div>
