@@ -11,7 +11,7 @@
  * @version     $Id: german.php
  * Code: UTF-8 by Muki
  *
- * Assocated with editor_registry.php
+ * Associated with editor_registry.php
  */
 define("_XOOPS_EDITOR_FCKEDITOR","FCK Editor");
 define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');

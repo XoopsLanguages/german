@@ -1,0 +1,51 @@
+{
+  "language": "german",
+  "code": "de",
+  "name": "German",
+  "nativeName": "Deutsch",
+  "rtl": false,
+  "maintainers": [
+    "XoopsLanguages Team"
+  ],
+  "core": {
+    "2.3.1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.3.1.zip"
+    },
+    "2.3.2": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.3.2.zip"
+    },
+    "2.3.3": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.3.3.zip"
+    },
+    "2.4.0": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.4.0.zip"
+    },
+    "2.5.6": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.5.6.zip"
+    },
+    "2.5.7": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.5.7.zip"
+    },
+    "2.5.9": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.5.9.zip"
+    },
+    "2.7.0": {
+      "lifecycle": "active",
+      "coverage": 99.8,
+      "provided": 3092,
+      "required": 3098,
+      "updated": "2026-05-04",
+      "download": "https://github.com/XoopsLanguages/german/releases/download/latest/german-core-2.7.0.zip",
+      "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/german/master/manifest.json"
+    }
+  },
+  "modules": {},
+  "themes": {}
+}

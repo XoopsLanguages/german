@@ -9,7 +9,7 @@
  * @version		$Id: german.php
  * @package		xoopseditor
  *
- * Assocated with editor_registry.php
+ * Associated with editor_registry.php
  * Code: UTF-8 by Muki überarbeitet von Alfred
  */
 
